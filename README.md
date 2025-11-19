@@ -11,4 +11,4 @@ This repository contains my JavaScript practice files, including:
 
 - Clone the repo:
   ```bash
-  git clone https://github.com/your-username/JavaScriptPractice.git
+  git clone https://github.com/Reetu-Chauhan/Learn-JavaScript.git
