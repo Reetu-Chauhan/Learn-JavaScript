@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Mintra Bag</title>
+  <link rel="stylesheet" href="Mintra Bag.css">
+</head>
+<body>
+  <button class="bag-button" onclick="cardQuantity++;
+  document.querySelector('#card-summary').innerText = `Your Bag has ${cardQuantity} Items`;
+  ">Add to Bag</button>
+  <button class="move-button" onclick="cardQuantity -= 1;
+  document.querySelector('#card-summary').innerText = `Your Bag has ${cardQuantity} Items`;
+  ">MOVE TO WISHLIST</button>
+  <button class="bag-button" onclick="cardQuantity += 2;
+  document.querySelector('#card-summary').innerText = `Your Bag has ${cardQuantity} Items`;
+  ">Add 1+1 Sale Item</button>
+
+  <h1 id="card-summary"></h1>
+  <script>
+    let cardQuantity = 5;
+    document.querySelector('#card-summary').innerText = `Your Bag has ${cardQuantity} Items`;
+  </script>
+</body>
+</html>
